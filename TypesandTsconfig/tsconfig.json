@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "strictNullChecks": true
+  },
+  "include": ["**/*.ts"]
+}
+
+/*
+TypeScript features are extremely useful: for one, it allows us to add types to regular JavaScript code. It also checks for syntax errors even before run time. It even provides tooltips that show you why some code might throw an error. There are so many great features that come by default. Even with all these great features, TypeScript recognizes the need for flexibility.
+
+Sometimes, you don’t want all the default rules that TypeScript is trying to enforce — and that’s fine. That’s one reason why providing a tsconfig.json file is useful. Additionally, you get perks like telling the TypeScript compiler what files to run on and more!
+*/
