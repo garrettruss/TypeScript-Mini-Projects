@@ -11,3 +11,13 @@ The function greet() can receive a string or undefined as its name parameter—i
 
 This is a cleaner way of getting the same functionality we had in the previous exercise. There, we used ? to mark the name parameter as optional. But parameters with default values don’t need a ? after their name, since assigning a default value already implies that they’re optional parameters.
 */
+
+function proclaim(status = 'not ready...', repeat = 1) {
+  for (let i = 0; i < repeat; i += 1) {
+    console.log(`I'm ${status}`);
+  }
+}
+
+proclaim();
+proclaim('ready?');
+proclaim('ready!', 3);
