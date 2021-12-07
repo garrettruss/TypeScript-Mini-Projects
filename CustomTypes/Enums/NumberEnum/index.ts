@@ -1,3 +1,5 @@
+/*
+
 let petOnSale = 'chinchilla';
 let ordersArray = [
   ['rat', 2], 
@@ -6,7 +8,13 @@ let ordersArray = [
   ['chinchilla', 50]
 ];
 
+*/
+
 /** We use enums when we’d like to enumerate all the possible values that a variable could have.  */
+
+/*
+Commented out because same variables as in StringEnum. 
+
 
 enum Pet {
   Hamster, 
@@ -24,3 +32,4 @@ let ordersArrayTS: [Pet, number][] = [
   [Pet.Chinchilla, 50]
 ];
 
+*/
