@@ -1,1 +1,1 @@
-# Typescript Projects from CodeCademy
+# Typescript Projects from CodeCademy and more
