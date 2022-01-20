@@ -1,12 +1,17 @@
+// Refactored interface to allow for nested interfaces and better readability.
+
 interface Directory {
   addFile: (name: string) => void;
-  // Define a config type member here
-  config: {
-    default: {
-      encoding: string,
-      permissions: string,
-    }
+  config: Config;
   }
+
+interface DefaultConfig {
+  encoding: string;
+  permissions: string;
+}
+
+interface Config {
+  default: DefaultConfig;
 }
 
 class DesktopDirectory implements Directory {
